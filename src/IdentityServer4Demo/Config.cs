@@ -113,7 +113,7 @@ namespace IdentityServer4Demo
                     RequireConsent = false,
 
                     AllowedGrantTypes = GrantTypes.CodeAndClientCredentials,
-                    RequirePkce = true,
+                    RequirePkce = false,
                     AllowedScopes = { "openid", "profile", "email", "api", "api.scope1", "api.scope2", "scope2" },
 
                     AllowOfflineAccess = true,

@@ -18,7 +18,8 @@
     "IdentityServer4Demo": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000",
+      "applicationUrl": "https://0.0.0.0:443;http://0.0.0.0:80",
+      "launchUrl": "http://localhost:80",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
